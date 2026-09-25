@@ -4,7 +4,7 @@ github.com/iancoleman/strcase v0.3.0 h1:nTXanmYxhfFAMjZL34Ov6gkzEsSJZ5DbhxWjvSAS
 github.com/iancoleman/strcase v0.3.0/go.mod h1:iwCmte+B7n89clKwxIoIXy/HfoL7AsD47ZCWhYzw7ho=
 github.com/lemmego/gpa v0.1.2 h1:etKStXfwt6YIIF9RHKFslwd52LxnYdRbQDTsA84BkMI=
 github.com/lemmego/gpa v0.1.2/go.mod h1:xPuZfQpbaVw8tc37zfi5oa6vlOTcVHqT+n8WvFFfvN8=
-github.com/lemmego/orm v0.1.0 h1:0oF2qSmkcbvfZaLg9EkOzWjrGoW/H3w9/ByUG8AadCc=
-github.com/lemmego/orm v0.1.0/go.mod h1:yArfq325V92HfsFfMU7dih5N/H2ujUP3dxWg2IZxkCE=
+github.com/lemmego/orm v0.1.1 h1:mJd5DZYNI6CyTcn5nNvbHO2AKebSz/4G4I9YS/125PE=
+github.com/lemmego/orm v0.1.1/go.mod h1:yArfq325V92HfsFfMU7dih5N/H2ujUP3dxWg2IZxkCE=
 github.com/mattn/go-sqlite3 v1.14.28 h1:ThEiQrnbtumT+QMknw63Befp/ce/nUPgBPMlRFEum7A=
 github.com/mattn/go-sqlite3 v1.14.28/go.mod h1:Uh1q+B4BYcTPb+yiD3kU8Ct7aC0hY9fxUwlHK0RXw+Y=
