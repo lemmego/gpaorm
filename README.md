@@ -1,6 +1,6 @@
 # gpaorm
 
-The GPA provider backed by the [Lemmego ORM](../orm).
+The GPA provider backed by the [Lemmego ORM](https://github.com/lemmego/orm).
 
 ```text
 gpaorm -> orm + gpa
@@ -10,10 +10,9 @@ The ORM never imports GPA, so every translation between the two lives here.
 
 ## Usage
 
-`gpaorm` deliberately takes an already-open ORM connection rather than dialling
-a database itself, so it needs no SQL driver dependencies — the application
-chooses and imports its own driver, exactly as it does for the migration
-module.
+`gpaorm` takes an already-open ORM connection rather than dialling a database
+itself, so it needs no SQL driver dependencies — you choose and import your
+own driver, exactly as you do for the migration module.
 
 ```go
 sqlDB, _ := sql.Open("pgx", dsn)
@@ -76,8 +75,8 @@ narrowing it.
 ## Transactions
 
 GPA models a transaction as a per-entity-type repository (`Transaction[T]`
-embeds `Repository[T]`), while the ORM's transaction is deliberately
-entity-agnostic so one unit of work can span several models. The bridge is that
+embeds `Repository[T]`), while the ORM's transaction is
+entity-agnostic, so one unit of work can span several models. The bridge is that
 many `Transaction[T]` values can share one `*orm.Tx`:
 
 ```go
